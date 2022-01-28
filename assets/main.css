@@ -1,0 +1,48 @@
+body {
+    border: 3px solid black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    color:white;
+    background: black;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.box2 {
+    color: white;
+    background: red;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+   
+    
+}
+
+.box3, .box4, .box5, .box6 {
+    color: white;
+    background: sienna;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
